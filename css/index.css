@@ -60,9 +60,8 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-body{
-    width:100%;
-}
+
+
 
 .container {
 	max-width: 100%;
@@ -77,9 +76,6 @@ header {
 	justify-content: space-between;
 	align-items: center;
 }
-
-
-
 
 nav a {
 	color: grey;
@@ -237,6 +233,33 @@ button{
 	
 }
 
+@media(max-width:800px){
+     .logo{
+         display: 
+        
+        
+    }
+    .intro-container img{
+        display: none;
+    }
+    .bottom-content{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .services{
+        padding:10px;
+    }
+    .product{
+        padding:10px;
+    }
+
+    .vision{
+        padding:10px;
+    }
+    
+}
+
 @media(max-width:500px){
     .bottom-content{
         display: inline;
@@ -261,17 +284,31 @@ button{
     header{
         display:flex;
         flex-direction: column-reverse;
+        border-bottom: 1px solid black;
     }
     header nav{
      display: flex;
      flex-direction: column;
      align-items: center;
+     width:100%;
      
     }
     header nav a{
         border-bottom: 1px solid grey;
         margin:10px;
         padding:10px;
-        a
     }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
