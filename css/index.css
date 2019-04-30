@@ -133,7 +133,8 @@ header p {
 
 .top-content {
 	border-top: 1px solid black;
-	display: flex;
+    display: flex;
+    justify-content: space-between;
 	padding: 30px;
 }
 
@@ -244,8 +245,13 @@ button{
     }
     .bottom-content{
         display: flex;
+        padding:10px;
         justify-content: space-evenly;
-        
+    }
+    .top-content{
+        padding:10px;
+        display: flex;
+        justify-content: space-between;
     }
     .services{
         padding:10px;
