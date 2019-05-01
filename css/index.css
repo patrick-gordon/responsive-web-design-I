@@ -277,7 +277,7 @@ button{
 
 @media(max-width:500px){
     .bottom-content{
-        /* display: inline; */
+     	display: inline; 
     }
     .services {
         margin: 20px;
